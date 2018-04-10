@@ -47,6 +47,7 @@ $ npm install
 
    $ git merge feature1-branch
    ```
+   while executing these commands, you'll notice nodes being added and adjusted to match the new graph.
    
 ##### Notes on visualization
 - It's best to work with a clean or small git directory, becuase normal git directories contain too many nodes and it will be very heavy to display them in a browser window. As a result, the max number of nodes allowed in the git directory is 2000 nodes. If you still want to experiment with more than 2000 nodes, you can change this number in the file ```config.js```.
